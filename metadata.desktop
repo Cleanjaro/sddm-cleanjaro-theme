@@ -1,0 +1,15 @@
+[SddmGreeterTheme]
+Name=Cleanjaro
+Description=Cleanjaro theme for KDE Plasma
+Author=Yorper
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/Yorper/sddm-cleanjaro-theme
+Screenshot=Preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=yorper_protonmail.com
+Theme-Id=cleanjaro
+Theme-API=2.0
