@@ -1,5 +1,5 @@
 # Maintainer: David Spink <yorper_protonmail.com>
-# Theme based from https://github.com/vinceliuice/Matcha-kde
+# Theme based from https://github.com/vinceliuice/
 
 pkgname=sddm-cleanjaro-theme
 pkgver=1
