@@ -12,6 +12,10 @@ depends=('qt5-quickcontrols' 'sddm')
 source+=("git+$url.git")
 sha256sums=('SKIP')
 
+pkgver() {
+  date +%Y%m%d
+}
+
 package() {
     mkdir -p "${pkgdir}/usr/share/sddm/themes"
     cp -r "${srcdir}/sddm-cleanjaro-theme" "${pkgdir}/usr/share/sddm/themes/cleanjaro"
